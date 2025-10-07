@@ -1,0 +1,15 @@
+cat > .gitignore <<'EOF'
+# Dependencies & builds
+node_modules/
+.next/
+out/
+dist/
+coverage/
+# Local/dev
+.env*
+.vscode/
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+.vercel/
+EOF
