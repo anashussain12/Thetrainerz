@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
 
-const WHATSAPP_NUMBER = "923706237313"; // <-- change to your real number without '+'
+const WHATSAPP_NUMBER = "923706237313";
 const WA_MESSAGE = encodeURIComponent("Hi Thetrainerz, I’d like to book a lesson.");
 const WA_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WA_MESSAGE}`;
 
