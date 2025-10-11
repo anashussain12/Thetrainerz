@@ -396,7 +396,6 @@ function Why() {
   );
 }
 
-/* ---------------- FAQ ---------------- */
 function FAQ() {
   const qs = [
     { q: "How many lessons do I need?", a: "Beginners usually take 5-10 lessons. After an assessment, we suggest a tailored plan." },
