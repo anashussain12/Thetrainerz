@@ -365,7 +365,6 @@ function Steps() {
   );
 }
 
-/* ---------------- Why ---------------- */
 function Why() {
   const bullets = [
     { t: "High first-time pass rate", d: "Focused test routes practice and mock tests." },
