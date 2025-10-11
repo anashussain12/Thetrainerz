@@ -253,7 +253,6 @@ function Courses() {
   );
 }
 
-/* ---------------- Roadmap (added) ---------------- */
 function Roadmap() {
   const steps = [
     "Lesson 1: On-Road Training from Day 1 (Non-crowded areas)",
