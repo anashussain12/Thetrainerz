@@ -32,8 +32,6 @@ export default function Home() {
       </main>
 
       <Footer />
-
-      {/* Floating WhatsApp */}
       <a
         href={WA_LINK}
         target="_blank"
