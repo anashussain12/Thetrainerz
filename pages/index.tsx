@@ -186,8 +186,6 @@ function Hero() {
 function Dot() {
   return <span className="inline-block h-2 w-2 rounded-full bg-teal-600" />;
 }
-
-/* ---------------- Stats ---------------- */
 function Stats() {
   const data = [
     { k: "1k+", v: "Students Trained" },
