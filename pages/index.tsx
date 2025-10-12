@@ -325,7 +325,6 @@ function Benefits() {
   );
 }
 
-/* ---------------- Steps ---------------- */
 function Steps() {
   const steps = [
     { n: 1, t: "Register", d: "Tap WhatsApp and tell us your schedule." },
