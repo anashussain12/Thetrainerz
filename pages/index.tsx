@@ -299,7 +299,6 @@ function Roadmap() {
   );
 }
 
-/* ---------------- Benefits (added) ---------------- */
 function Benefits() {
   const benefits = [
     "Personalized attention with single control car",
