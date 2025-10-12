@@ -16,7 +16,8 @@ export default function Home() {
           name="description"
           content="Flexible schedules, expert instructors, and high first-time pass rates in Lahore."
         />
-      </Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="icon" href="/favicon.ico" /></Head>
 
       <Navbar />
 
