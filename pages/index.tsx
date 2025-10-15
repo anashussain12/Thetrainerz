@@ -17,7 +17,8 @@ export default function Home() {
           content="Flexible schedules, expert instructors, and high first-time pass rates in Lahore."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.ico" /></Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
       <Navbar />
 
@@ -106,7 +107,7 @@ function Navbar() {
             href={WA_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-xl px-5 py-3 font-semibold bg-green-500 text-white hover:bg-green-600 shadow"
+            className="inline-flex items-center justify-center rounded-xl px-5 py-3 font-semibold bg-[#324354] text-white hover:bg-[#000] shadow"
           >
             WhatsApp
           </a>
@@ -168,7 +169,7 @@ function Hero() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-10 py-16 lg:py-24 items-center">
         <div>
-          <span className="inline-flex items-center gap-2 rounded-full bg-teal-50 text-teal-700 px-3 py-1 text-xs font-semibold">
+          <span className="inline-flex items-center gap-2 rounded-full bg-teal-50 text-[#324354] px-3 py-1 text-xs font-semibold">
             City Traffic Certified Instructors
           </span>
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
@@ -179,7 +180,7 @@ function Hero() {
               href={WA_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center rounded-xl px-5 py-3 font-semibold bg-green-500 text-white hover:bg-green-600 shadow"
+              className="inline-flex items-center justify-center rounded-xl px-5 py-3 font-semibold bg-[#324354] text-white hover:bg-[#000] shadow"
             >
               Chat on WhatsApp
             </a>
@@ -195,7 +196,7 @@ function Hero() {
         </div>
         <div className="relative">
           <img
-            src="https://static.vecteezy.com/system/resources/thumbnails/015/658/427/small_2x/drive-learn-road-sign-illustration-png.png"
+            src="/banner.png"
             alt="Driving lesson"
             className="rounded-2xl shadow w-full "
           />
@@ -227,7 +228,9 @@ function Stats() {
               key={d.v}
               className="rounded-2xl bg-white shadow border border-slate-100 p-6 text-center"
             >
-              <div className="text-3xl font-extrabold text-teal-600">{d.k}</div>
+              <div className="text-3xl font-extrabold text-[#324354]">
+                {d.k}
+              </div>
               <div className="text-sm text-slate-600 mt-1">{d.v}</div>
             </div>
           ))}
@@ -270,7 +273,7 @@ function Courses() {
           <ul className="mt-6 space-y-3 text-slate-700 text-sm ">
             {course.items.map((i) => (
               <li key={i} className="flex items-center gap-2">
-                <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-green-100 text-green-700 text-xs font-bold">
+                <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#324354] text-white text-xs font-bold">
                   ✓
                 </span>
                 {i}
@@ -311,7 +314,7 @@ function Roadmap() {
               key={t}
               className="rounded-2xl bg-white shadow border border-slate-100 p-5 flex gap-3"
             >
-              <span className="h-8 w-8 shrink-0 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold">
+              <span className="h-8 w-8 shrink-0 rounded-full bg-[#324354] text-white flex items-center justify-center font-bold">
                 {idx + 1}
               </span>
               <span className="text-slate-800">{t}</span>
@@ -323,7 +326,7 @@ function Roadmap() {
             href={WA_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold bg-green-500 text-white hover:bg-green-600 shadow"
+            className="inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold bg-[#324354] text-white hover:bg-[#000000] shadow"
           >
             Book via WhatsApp
           </a>
@@ -352,7 +355,7 @@ function Benefits() {
               key={b}
               className="rounded-2xl bg-white shadow border border-slate-100 p-5 flex items-start gap-3"
             >
-              <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-green-100 text-green-700 font-bold">
+              <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#324354] text-white font-bold">
                 ✓
               </span>
               <span className="text-slate-800">{b}</span>
@@ -394,7 +397,7 @@ function Steps() {
               key={s.n}
               className="rounded-2xl bg-white shadow border border-slate-100 p-6"
             >
-              <div className="h-10 w-10 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold">
+              <div className="h-10 w-10 rounded-full bg-[#324354] text-white flex items-center justify-center font-bold">
                 {s.n}
               </div>
               <h3 className="mt-3 font-semibold">{s.t}</h3>
@@ -407,7 +410,7 @@ function Steps() {
             href={WA_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold bg-green-500 text-white hover:bg-green-600 shadow"
+            className="inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold bg-[#324354] text-white hover:bg-[#000] shadow"
           >
             Start on WhatsApp
           </a>
@@ -454,7 +457,7 @@ function Why() {
           <ul className="mt-6 space-y-4">
             {bullets.map((b) => (
               <li key={b.t} className="flex gap-4">
-                <span className="mt-1 inline-flex h-7 w-7 items-center justify-center rounded-full bg-teal-50 text-teal-700">
+                <span className="mt-1 inline-flex h-7 w-7 items-center justify-center rounded-full bg-[#324354] text-white">
                   ✓
                 </span>
                 <div>
@@ -512,7 +515,7 @@ function FAQ() {
             href={WA_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold bg-green-500 text-white hover:bg-green-600 shadow"
+            className="inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold bg-[#324354] text-white hover:bg-[#000] shadow"
           >
             Ask on WhatsApp
           </a>
@@ -538,7 +541,7 @@ function CTA() {
             href={WA_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-xl px-8 py-4 font-semibold bg-green-500 text-white hover:bg-green-600 shadow"
+            className="inline-flex items-center justify-center rounded-xl px-8 py-4 font-semibold bg-[#324354] text-white hover:bg-[#000] shadow"
           >
             Message on WhatsApp
           </a>
@@ -581,7 +584,7 @@ function Contact() {
               href={WA_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold bg-green-500 text-white hover:bg-green-600 shadow"
+              className="inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold bg-[#324354] text-white hover:bg-[#000] shadow"
             >
               Message us on WhatsApp
             </a>
