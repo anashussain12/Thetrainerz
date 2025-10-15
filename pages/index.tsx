@@ -247,7 +247,6 @@ function Courses() {
     desc: "Perfect for first-time drivers covering basics, traffic rules, and practical lessons.",
     items: [
       "10 lessons",
-      "1 hour practical class per day",
       "Single Control Car",
       "Home Service Available",
       "Qualified Trainers",
