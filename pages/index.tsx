@@ -548,7 +548,6 @@ function CTA() {
   );
 }
 
-/* ---------------- Contact (WhatsApp only) ---------------- */
 function Contact() {
   return (
     <section id="contact" className="py-16">
