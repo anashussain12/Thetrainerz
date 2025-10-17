@@ -240,7 +240,6 @@ function Stats() {
   );
 }
 
-/* ---------------- Courses ---------------- */
 function Courses() {
   const course = {
     title: "Driving Course",
