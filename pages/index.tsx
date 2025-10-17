@@ -611,10 +611,6 @@ function Footer() {
               alt="Thetrainerz Logo"
               className="h-28 w-auto"
             />
-            {/* <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-teal-600 text-white font-bold">
-              TT
-            </span>
-            <span className="font-bold">Thetrainerz</span> */}
           </div>
           <p className="text-slate-600 mt-3 text-sm">
             Professional driving lessons. Flexible schedules, expert
