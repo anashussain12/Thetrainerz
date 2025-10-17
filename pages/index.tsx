@@ -523,7 +523,6 @@ function FAQ() {
   );
 }
 
-/* ---------------- CTA (added "Book Your Course Today!") ---------------- */
 function CTA() {
   return (
     <section className="py-16 bg-gradient-to-b from-teal-50 to-white">
